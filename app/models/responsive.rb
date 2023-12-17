@@ -1,0 +1,2 @@
+class Responsive < ApplicationRecord
+end
