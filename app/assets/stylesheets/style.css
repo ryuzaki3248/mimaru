@@ -1,6 +1,6 @@
 
 .toppage{
-  height: 7000px;
+  height: 18000px;
   margin-top: 10px;
   margin-bottom: 20px;
   margin-left: 30px;
@@ -49,7 +49,7 @@
   left: 50%;
   height: 8em;
   transform: translate(-50%, -50%);  
-  color: aqua ;
+  color: black ;
   
   font-size  : 95px;
   font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
@@ -220,12 +220,17 @@
   background-color: red;
 }
 
+.element.style{
+  background-color: white;
+    border-radius: 3px;
+    border: 1px solid rgb(219, 219, 219);
+    box-shadow: none;
+    display: block;
+    margin: 0px 0px 12px;
+    min-width: 326px;
+    padding: 0px;
 
-
-.test{
-  font-size: 90px;
 }
-
 
 
 
