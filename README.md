@@ -1,24 +1,45 @@
-# README
+# アプリケーション名
+mimaruHP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# アプリケーション概要
+みぃ丸亭(飲食店)のHPです。ご来店を考えているお客様が閲覧し来店したくなるHPです。
 
-Things you may want to cover:
+# URL
+https://mimaru.onrender.com/
 
-* Ruby version
+## 利用方法
+URLにアクセスする
 
-* System dependencies
+# アプリケーションを作成した背景
+お店のオーナーがお店専用のHPが無いとのことで作成して欲しいと依頼されました。まだ来店したことのないお客様が美味しそうな料理が沢山あると思って貰えるように作成。そのために料理写真を多めに記載。
 
-* Configuration
+# 洗い出した要件
+[![Image from Gyazo](https://i.gyazo.com/04aa62577acee64c85e6f506ed76a46e.png)](https://gyazo.com/04aa62577acee64c85e6f506ed76a46e)
+# 実装した機能について
+[![Image from Gyazo](https://i.gyazo.com/8debe511bb3373922264469146b3c5d7.png)](https://gyazo.com/8debe511bb3373922264469146b3c5d7)
 
-* Database creation
+Instagramの投稿を埋め込み、クリックすればInstagramのページに飛ぶように設定。さらに埋め込みの大きさも調整。
 
-* Database initialization
+# 実装予定の機能
+Instagramの表示内容を最新の投稿内容が反映させるようにする。
 
-* How to run the test suite
+トップページ表示の際に入荷した魚の写真を表示する。ただ表示させるのではなく動きも付ける。
 
-* Services (job queues, cache servers, search engines, etc.)
+レスポンシブ化する。
 
-* Deployment instructions
+# ローカルでの動作確認
+以下のコマンドを順に実行。
 
-* ...
+% git clone https://github.com/ryuzaki3248/mimaru
+
+% cd mimaru
+
+% bundle install
+
+% yarn install
+
+# 工夫したポイント
+コース料理が多いので料理写真とテキストを同時に閲覧できるようにわかりやすくレイアウトした。
+
+SNSに誘導するためにInstagram情報も記載。
+
