@@ -221,8 +221,31 @@
 }
 
 
+.instagram-facebook{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 
+.instagram-parent-element{
+
+}
+
+.instagram-media{
+
+
+}
+
+
+.fecebook-parent-element{
+
+}
+
+
+.facebook-media{
+
+}
 
 
 
