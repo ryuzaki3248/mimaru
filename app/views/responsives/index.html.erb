@@ -15,9 +15,33 @@
 	<header class="header">
 			<%= image_tag "IMG_logo1.JPG",  class:"toplogo_image" %>
 			<%= image_tag "スクリーンショット 2023-12-18 20.35.07.png",  class:"toplogo_image" %>
-      <a href="<%= maps_path %>">
-      <%= image_tag "38260EB5-117E-47D8-877F-276C403E3D91.png", class: "map_image" %>
-</a>
+      <a href="<%= maps_path %>" id="map-link">
+      <%= image_tag "38260EB5-117E-47D8-877F-276C403E3D91.png", class: "map_image", id: "map-image" %>
+      </a>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var mapLink = document.getElementById("map-link");
+    var mapImage = document.getElementById("map-image");
+
+    mapLink.addEventListener("mouseover", function() {
+      mapImage.classList.add("hovered");
+    });
+
+    mapLink.addEventListener("mouseout", function() {
+      mapImage.classList.remove("hovered");
+    });
+  });
+</script>
+
+<style>
+  .hovered {
+    /* マウスが要素上にあるときのスタイル */
+    filter: brightness(80%);
+    /* 例: 透明度を変えたい場合は opacity: 0.8; など */
+  }
+</style>
+
 		</header>
 
  
