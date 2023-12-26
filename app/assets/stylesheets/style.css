@@ -14,10 +14,16 @@
 }
 
 .toplogo_image{
-	width: 360px;
 	height: 180px;
+  width: 360px;
   margin-left: 10px;;
   margin-top: 10px;
+}
+
+.map_image{
+  height: 90px;
+  width: 450px;
+  float: right;
 }
 
 
