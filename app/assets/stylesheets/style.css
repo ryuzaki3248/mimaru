@@ -317,6 +317,40 @@
 
 
 
+.map-wrapper{
+  display: flex;
+  justify-content: space-around;  
+}
+
+
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 画面の高さいっぱいに広げる */
+}
+
+.box-text {
+  font-size: 20px;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  font-weight: bold;
+  border: solid 5px black;
+  text-align: center; /* テキストを中央寄せ */
+  cursor: pointer;
+  width: fit-content; /* 追加 */
+  height: fit-content; /* 追加 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+ }
+
+ .box-text p {
+  margin: 0; 
+  padding: 0;
+ }
 
 
 
@@ -325,8 +359,7 @@
 
 
 
-
-
+ 
 
 
 
