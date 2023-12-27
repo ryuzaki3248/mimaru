@@ -1,4 +1,61 @@
-<h1>AccessMa</h1>
+<!DOCTYPE HTML>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pescatrice みぃ丸亭</title>
+    <link rel="stylesheet" href="/assets/reset.css">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900&display=swap" rel="stylesheet">
+  </head>
+<body>
+
+<div class="map-toppage">
+
+<div class="map-title">
+<h1>アクセスマップ</h1>
+</div>
+
+<hr class="black-border" />
+
+
+
+<div class="map-container">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.55235490254!2d139.36777587690068!3d35.441117543124825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018554c2900088b%3A0x9f25389015932d05!2zUGVzY2F0cmljZSDjg5rjgrnjgqvjg4jjg6rjg7zjg4Hjgqcg44G_44GD5Li45Lqt!5e0!3m2!1sja!2sjp!4v1703692273993!5m2!1sja!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+
+<div class="map-wrapper">
+<div class="box-text" onclick="window.location.href='https://maps.app.goo.gl/gP513QCAsGtHxV8R7';">
+    <p>Google Map ></p>
+  </div>
+
+  <script>
+    // JavaScriptで色を変更するイベントリスナーを追加
+    var boxText = document.querySelector('.box-text');
+
+    boxText.addEventListener('mouseover', function() {
+      boxText.style.backgroundColor = '#c0c0c0'; // ホバー時の背景色
+    });
+
+    boxText.addEventListener('mouseout', function() {
+      boxText.style.backgroundColor = ''; // ホバーから外れたときは背景色をクリア
+    });
+  </script>
+</div>
+
+
+
+
+
+
+
+
+
+
 
 
 <%= link_to "Topページへ", responsives_path, data: { turbo: false } %>
+</div>
+</body>
+</html>
