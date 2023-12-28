@@ -372,7 +372,31 @@
 
 
 
- 
+
+
+
+
+
+.box-text {
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.box-text:hover {
+  background-color: #d0d0d0; /* ホバー時の背景色 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
