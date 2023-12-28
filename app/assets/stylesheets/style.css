@@ -39,7 +39,6 @@
 .leftmenu{
 	width: 50%;
 	height: 800px;
-	background-color: blue;
 }
 
 .topleft_image{
@@ -65,7 +64,6 @@
 .rightmenu{
   width: 50%;
   height: 800px;
-	background-color: red;
 }
 
 .topright_image{
