@@ -10,7 +10,23 @@
   </head>
 <body>
 
-<%= link_to "Topページへ", responsives_path, data: { turbo: false } %>
+<%= link_to responsives_path, data: { turbo: false }, id: "logoLink" do %>
+  <%= image_tag "IMG_logo1.JPG", class: "toplogo_image", id: "logoImage" %>
+<% end %>
+
+<script>
+  // JavaScriptで色を変更するイベントリスナーを追加
+  var logoLink = document.getElementById('logoLink');
+  var logoImage = document.getElementById('logoImage');
+
+  logoLink.addEventListener('mouseover', function() {
+    logoImage.style.filter = 'brightness(80%)'; // ホバー時の効果例：明るさを80%に変更
+  });
+
+  logoLink.addEventListener('mouseout', function() {
+    logoImage.style.filter = ''; // ホバーから外れたときはフィルターをクリア
+  });
+</script>
 
 <div class="map-toppage">
 
