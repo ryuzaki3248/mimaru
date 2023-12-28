@@ -13,8 +13,32 @@
 <div class="toppage">
 
 	<header class="header">
-			<%= image_tag "IMG_logo1.JPG",  class:"toplogo_image" %>
-			<%= image_tag "スクリーンショット 2023-12-18 20.35.07.png",  class:"toplogo_image" %>
+
+<%= link_to responsives_path, data: { turbo: false }, id: "logoLink" do %>
+  <%= image_tag "IMG_logo1.JPG", class: "toplogo_image", id: "logoImage" %>
+<% end %>
+
+<script>
+  // JavaScriptで色を変更するイベントリスナーを追加
+  var logoLink = document.getElementById('logoLink');
+  var logoImage = document.getElementById('logoImage');
+
+  logoLink.addEventListener('mouseover', function() {
+    logoImage.style.filter = 'brightness(80%)'; // ホバー時の効果例：明るさを80%に変更
+  });
+
+  logoLink.addEventListener('mouseout', function() {
+    logoImage.style.filter = ''; // ホバーから外れたときはフィルターをクリア
+  });
+</script>
+
+
+
+
+
+
+
+			<%= image_tag "AEDDAA36-D6BE-4349-AC42-2DAB27EDF4C3_4_5005_c.jpeg",  class:"toplogo_image" %>
       <a href="<%= maps_path %>" id="map-link">
       <%= image_tag "38260EB5-117E-47D8-877F-276C403E3D91.png", class: "map_image", id: "map-image" %>
       </a>
@@ -358,8 +382,7 @@
 
 
 
-
-<%= link_to "Topページへ", responsives_path %>
+<%= link_to "Topページへ", responsives_path, data: { turbo: false } %>
 
 </body>
 </html>
