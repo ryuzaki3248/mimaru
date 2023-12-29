@@ -12,7 +12,7 @@
 
 <div class="toppage">
 
-	<header class="header">
+	<header>
 
 <%= link_to responsives_path, data: { turbo: false }, id: "logoLink" do %>
   <%= image_tag "IMG_logo1.JPG", class: "toplogo_image", id: "logoImage" %>
@@ -31,12 +31,6 @@
     logoImage.style.filter = ''; // ホバーから外れたときはフィルターをクリア
   });
 </script>
-
-
-
-
-
-
 
 			<%= image_tag "AEDDAA36-D6BE-4349-AC42-2DAB27EDF4C3_4_5005_c.jpeg",  class:"toplogo_image" %>
       <a href="<%= maps_path %>" id="map-link">
@@ -66,26 +60,28 @@
   }
 </style>
 
-		</header>
-
- 
+	</header>
 
 
 
-	<div class="main">
-		<div class="oneword">旬の魚、うまい酒</div>
-		<div class="leftmenu"><%= image_tag "4917639742617941249.167e3da254c2f328b2eb8a4dbae32775.23081914.jpg", class:"topleft_image" %>
-	</div>
-		<div class="rightmenu"><%= image_tag "IMG_liquors.JPG", class:"topright_image" %>
+
+  <div class="main">
+		<div class="center-word">
+		旬の魚、うまい酒
+		</div>
+		<div class="left-menu">
+		<%= image_tag "4917639742617941249.167e3da254c2f328b2eb8a4dbae32775.23081914.jpg", class:"topleft_image" %>
+	  </div>
+		<div class="right-menu"><%= image_tag "IMG_liquors.JPG", class:"topright_image" %>
 		</div>
 	</div>
   <!--白のボーダーです-->
-	<div class="bordertitle"></div>
+	<div class="border-title"></div>
 
  <div class="second">
-    <div class="secondleft"><%= image_tag "IMG_縦.JPG", class:"secondleft_image" %>     
+    <div class="second-left"><%= image_tag "IMG_縦.JPG", class:"second-left_image" %>     
 		</div>
-<div class="secondtext">亭主と釣り仲間が仕入れた新鮮な魚と美味しいお酒…  
+<div class="second-text">亭主と釣り仲間が仕入れた新鮮な魚と美味しいお酒…  
 	ちょこっとイタリアンが楽しめる、アットホームなお店です。なんといっても看板メニューは金目鯛‼︎伊豆の新島沖の地キンメを釣ってくるので、あの本場のキンメを本厚木で食べれちゃいます‼︎旬の食材は地消地産はもちろん、亭主自ら山菜狩りや潮干狩り、レアな日本酒など…究極の食材を求めに出向いてます‼︎
 	カウンターもあるのでお一人様はもちろん、小さいお店なので貸し切り宴会なども可能です。
 	お昼は仕入れでお休みがない限り、ランチ営業も毎日しております。ランチは税込1500円、仕入れ次第の1メニュー限定ランチです。数に限りがあるので売り切り次第終了です。ランチタイムには駐車場の貸し出しもありますが、御予約のみで、満車の場合は近くの有料駐車場によろしくお願い申し上げます。
@@ -94,7 +90,7 @@
 </div>
 </div>
 
-<div class="bordertitle">みぃ丸亭の宴会コース</div>
+<div class="border-title">みぃ丸亭の宴会コース</div>
 
 
 <div class="border" style="text-align: center;">
