@@ -10,7 +10,6 @@
 .header{
 	height: 220px;
 	width: 100%;
-
 }
 
 .toplogo_image{
@@ -36,10 +35,9 @@
   position: relative;
 }
 
-.leftmenu{
+.left-menu{
 	width: 50%;
 	height: 800px;
-	background-color: blue;
 }
 
 .topleft_image{
@@ -47,7 +45,7 @@
   height: 800px;
 }
 
-.oneword{
+.center-word{
   writing-mode: vertical-rl;
   text-orientation: upright;
   position: absolute;
@@ -62,10 +60,9 @@
 }
 
 
-.rightmenu{
+.right-menu{
   width: 50%;
   height: 800px;
-	background-color: red;
 }
 
 .topright_image{
@@ -86,12 +83,12 @@
   display: flex;
 }
 
-.secondleft_image{
+.second-left_image{
   width: 100%;
   height: 800px;
 }
 
-.secondtext{
+.second-text{
   width: 70%;
   height: 800px;
   font-size: 35px;
@@ -103,7 +100,7 @@
   font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
 }
 
-.bordertitle{
+.border-title{
   height: 150px;
   text-align: center;
   display: flex;
