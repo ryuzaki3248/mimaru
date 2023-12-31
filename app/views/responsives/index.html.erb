@@ -58,11 +58,11 @@
 
 <nav>
   <uls>
-    <a href="#course"><lis>宴会コース</lis></a>
-		<a href="#take-out"><lis>テイクアウト</lis></a>
-		<a href="#lunch"><lis>みぃ丸亭のランチ</lis></a>
-		<a href="<%= maps_path %>" id="map-link"><lis>アクセスマップ</lis></a>
-		<a href="contact-us"><lis>📞&nbsp;お問い合せ</lis></a>
+    <a href="#course"><lis>宴会コース&nbsp;</lis></a>
+		<a href="#take-out"><lis>テイクアウト&nbsp;</lis></a>
+		<a href="#lunch"><lis>みぃ丸亭のランチ&nbsp;</lis></a>
+		<a href="<%= maps_path %>" id="map-link"><lis>アクセスマップ&nbsp;</lis></a>
+		<a href="#contact-us"><lis>📞&nbsp;お問い合せ&nbsp;&nbsp;</lis></a>
 	</uls>	
 </nav>
 
@@ -97,7 +97,9 @@
 </div>
 </div>
 
-<div id="course"><div class="border-title">みぃ丸亭の宴会コース</div></div>
+<div id="course" style="position: relative; top: -140px;">
+  <div class="border-title" style="position: relative; top: 140px;">みぃ丸亭の宴会コース</div>
+</div>
 
 
 <div class="border" style="text-align: center;">
@@ -212,7 +214,9 @@
 
 			<div class="border" style="text-align: center;">
 				<div class="second_title">
-				<div id="take-out"><span style="font-size: 50px;">テイクアウトもやってます<一品料理の一例></span></div>
+				<div id="take-out" style="position: relative; top: -140px;">
+  <span style="font-size: 50px; position: relative; top: 140px;">テイクアウトもやってます&lt;一品料理の一例&gt;</span>
+</div>
 			</div>
 			</div>
 
@@ -270,7 +274,9 @@
 					
 					<div class="border" style="text-align: center;">
 						<div class="second_title">
-						<div id="lunch"><span style="font-size: 50px;">みい丸亭のランチ</span></div>
+						<div id="lunch" style="position: relative; top: -140px;">
+  <span style="font-size: 50px; position: relative; top: 140px;">みい丸亭のランチ</span>
+</div>
 					</div>
 					</div>					
 
@@ -321,24 +327,27 @@
 
 <div class="border" style="text-align: center;">
 						<div class="second_title">
-						<span style="font-size: 50px;">営業時間</span>
+						<div id="contact-us" style="position: relative; top: -140px;">
+  <span style="font-size: 50px; position: relative; top: 140px;">ご予約・お問い合せ&amp;営業時間</span>
+</div>
 					</div>
 					</div>
 
 	<div class="course">
-		<div class="coursetext">
 			<div class="top-content">
 			<div class="third_title">
 				</div>
-				<ul class="lists">
+				<ul class="lists-reservation">
+				<br>
 					<li class="list">◆ラ ン チ :11:30 ~ 14:00(毎日営業しています)
 ※買い出しなどの都合により12時開店の場合あり</li>
+        <br>
 					<li class="list">◆ディナー:18:00 ~ 23:00(通常営業の場合)</li>
+					<br>
 					<li class="list">定 休 日 :不定休
-※ 仕入れの状況により臨時休業や営業時間を変更 する場合がございます。お電話でお問い合わせ 頂ければ確実です。不在の場合は、オーナーの 携帯電話に転送されますので改めて折り返しの ご連絡を入れさせて頂きます。(090-7840-7896)</li>
+※ 仕入れの状況により臨時休業や営業時間を変更 する場合がございます。お電話でお問い合わせ 頂ければ確実です。不在の場合は、オーナーの 携帯電話に転送されますので改めて折り返しの ご連絡を入れさせて頂きます。(📞&nbsp;<a href="tel:09078407896"><span style="color: green;">090-7840-7896</span></a>)</li>
 					<li class="list"></li>						
 				</ul>
-			</div>
 			</div>
       </div>
 

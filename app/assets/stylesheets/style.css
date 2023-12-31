@@ -273,6 +273,18 @@ lis:hover::after {
   background-color: red;
 }
 
+.lists-reservation{
+  font-size: 45px;
+  color: brown;
+  font-weight: bold;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;  
+}
+
+
+
+
+
+
 
 .instagram-facebook{
   width: 100%;
