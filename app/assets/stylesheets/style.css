@@ -1,3 +1,6 @@
+body {
+  padding-top: 140px; /* ヘッダーの高さに合わせて調整 */
+}
 
 .toppage{
   height: 13000px;
@@ -8,10 +11,16 @@
 }
 
 header{
+  background-color: #ffffff;
 	height: 140px;
 	width: 100%;
   display: flex;
-  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  /* その他のスタイル */
 }
 
 .toplogo_image{
