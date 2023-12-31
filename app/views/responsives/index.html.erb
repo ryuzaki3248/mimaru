@@ -32,10 +32,6 @@
   });
 </script>
 
-			<%= image_tag "AEDDAA36-D6BE-4349-AC42-2DAB27EDF4C3_4_5005_c.jpeg",  class:"toplogo_image" %>
-      <a href="<%= maps_path %>" id="map-link">
-      <%= image_tag "38260EB5-117E-47D8-877F-276C403E3D91.png", class: "map_image", id: "map-image" %>
-      </a>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
@@ -59,6 +55,17 @@
     /* 例: 透明度を変えたい場合は opacity: 0.8; など */
   }
 </style>
+
+<nav>
+  <uls>
+    <a href="#course"><lis>宴会コース</lis></a>
+		<a href="#take-out"><lis>テイクアウト</lis></a>
+		<a href="#lunch"><lis>みぃ丸亭のランチ</lis></a>
+		<a href="<%= maps_path %>" id="map-link"><lis>アクセスマップ</lis></a>
+		<a href="contact-us"><lis>📞&nbsp;お問い合せ</lis></a>
+	</uls>	
+</nav>
+
 
 	</header>
 
@@ -90,7 +97,7 @@
 </div>
 </div>
 
-<div class="border-title">みぃ丸亭の宴会コース</div>
+<div id="course"><div class="border-title">みぃ丸亭の宴会コース</div></div>
 
 
 <div class="border" style="text-align: center;">
@@ -205,7 +212,7 @@
 
 			<div class="border" style="text-align: center;">
 				<div class="second_title">
-				<span style="font-size: 50px;">テイクアウトもやってます<一品料理の一例></span>
+				<div id="take-out"><span style="font-size: 50px;">テイクアウトもやってます<一品料理の一例></span></div>
 			</div>
 			</div>
 
@@ -263,7 +270,7 @@
 					
 					<div class="border" style="text-align: center;">
 						<div class="second_title">
-						<span style="font-size: 50px;">みい丸亭のランチ</span>
+						<div id="lunch"><span style="font-size: 50px;">みい丸亭のランチ</span></div>
 					</div>
 					</div>					
 

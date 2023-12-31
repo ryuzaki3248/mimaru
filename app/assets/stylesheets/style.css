@@ -1,3 +1,6 @@
+body {
+  padding-top: 140px; /* ヘッダーの高さに合わせて調整 */
+}
 
 .toppage{
   height: 13000px;
@@ -7,17 +10,64 @@
   margin-right: 40px;  
 }
 
-.header{
-	height: 220px;
+header{
+  background-color: #ffffff;
+	height: 140px;
 	width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  /* その他のスタイル */
 }
 
 .toplogo_image{
-	height: 180px;
-  width: 360px;
+	height: 120px;
+  width: 240px;
   margin-left: 10px;;
   margin-top: 10px;
 }
+
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+
+uls{
+display: flex;
+justify-content: flex-end;
+
+}
+
+lis {
+  font-size: 25px;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+  margin-left: 20px; /* 要素間のスペースを設定 */
+  position: relative;
+}
+
+
+lis::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+lis:hover::after {
+  width: 100%;
+}
+
+
 
 .map_image{
   height: 90px;
