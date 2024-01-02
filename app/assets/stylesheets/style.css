@@ -136,10 +136,12 @@ lis:hover::after {
 .second-left_image{
   width: 100%;
   height: 800px;
+  border-radius: 50%; /* 50%で円形になりますが、卵型にするには適切な値に調整してください */
+  object-fit: cover; /* 画像を中央に配置し、アスペクト比を保持します */
 }
 
 .second-text{
-  width: 70%;
+  width: 100%;
   height: 800px;
   font-size: 35px;
   font-weight: bold;
@@ -149,6 +151,11 @@ lis:hover::after {
   margin-right: 40px;
   font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
 }
+
+.centered-text {
+  text-align: center;
+}
+
 
 .border-title{
   height: 150px;
