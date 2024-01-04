@@ -339,7 +339,45 @@
 					<li class="access-text">◆小田急線高架下のコインパーキングがお奨めです
 					30分毎/１００円　最大料金７００円</li>
 					<li class="list"></li>					
-						
+
+<div class="access-box-text" onclick="window.location.href='https://maps.app.goo.gl/gP513QCAsGtHxV8R7';">
+    <p>Google Map >みぃ丸亭</p>
+</div>
+
+<script>
+    // JavaScriptで色を変更するイベントリスナーを追加
+    var accessBoxText = document.querySelector('.access-box-text');
+
+    accessBoxText.addEventListener('mouseover', function() {
+        accessBoxText.style.backgroundColor = '#c0c0c0'; // ホバー時の背景色を黒に設定
+    });
+    accessBoxText.addEventListener('mouseout', function() {
+        accessBoxText.style.backgroundColor = ''; // ホバーから外れたときは背景色をクリア
+    });
+</script>
+
+<div class="parking-box-text" onclick="window.location.href='https://maps.app.goo.gl/T7V6iQAXfRzY1RjEA';">
+    <p>Google Map >おすすめ駐車場</p>
+</div>
+
+<script>
+    // JavaScriptで色を変更するイベントリスナーを追加
+    var parkingBoxText = document.querySelector('.parking-box-text');
+
+    parkingBoxText.addEventListener('mouseover', function() {
+        parkingBoxText.style.backgroundColor = '#c0c0c0'; // ホバー時の背景色を設定
+    });
+    parkingBoxText.addEventListener('mouseout', function() {
+        parkingBoxText.style.backgroundColor = ''; // ホバーから外れたときは背景色をクリア
+    });
+</script> 
+
+
+
+
+
+
+
 				</ul>
 			</div>
 			</div>
