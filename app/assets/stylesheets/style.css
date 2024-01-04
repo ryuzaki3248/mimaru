@@ -80,7 +80,6 @@ lis:hover::after {
 .main{
 	width: 100%;
 	height: 800px;
-	background-color: yellow;
 	display: flex;
   position: relative;
 }
@@ -143,7 +142,7 @@ lis:hover::after {
 .second-text{
   width: 100%;
   height: 800px;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -176,12 +175,6 @@ lis:hover::after {
   font-weight: bold;
 }
 
-.third_title{
-  color: dodgerblue;
-  font-size: 35px;
-    font-weight: bold;
-}
-
 .course{
   width: 100%;
   height: 800px;
@@ -192,12 +185,63 @@ lis:hover::after {
 .coursetext{
 	width: 50%;
 	height: 800px;
-  font-size: 25px;
   color: brown;
   font-weight: bold;
   font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;  
-
 }
+
+
+.free-drinks-blue-text{
+  color: dodgerblue;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+
+.free-drinks-text{
+  font-size: 40px;
+}
+
+
+.cooking-only-blue-text{
+  color: dodgerblue;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.cooking-only-text{
+  font-size: 45px;
+  font-weight: bold;  
+}
+
+.italian-blue-text{
+  color: dodgerblue;
+  font-size: 45px;
+  font-weight: bold;  
+}
+
+.italian-text{
+  font-size: 45px;
+  font-weight: bold;    
+}
+
+.strongest-blue-text{
+  color: dodgerblue;
+  font-size: 45px;
+  font-weight: bold;   
+}
+
+.strongest-text{
+  font-size: 45px;
+  font-weight: bold;  
+}
+
+
+.list{
+  font-size: 40px;
+}
+
+
 .lists{
   line-height: 230%;
 }
@@ -226,9 +270,8 @@ lis:hover::after {
 
 
 .one_dish{
-  height: 610px;
+  height: 650px;
   width: 100%;
-  background-color:white;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -243,11 +286,17 @@ lis:hover::after {
   align-items: center;
 }
 
+.one-dish-name{
+font-size: 45px;
+}
+
+
+
+
 
 .left-content {
   width: 31%;
   height: 60%;
-  background-color: lightgreen;
 }
  
 .left-image{
@@ -258,7 +307,6 @@ lis:hover::after {
  .center-content{
   width: 31%;
   height: 60%;
-  background-color: skyblue;
  }
  
  .center-image{
@@ -269,7 +317,6 @@ lis:hover::after {
  .right-content{
   width: 31%;
   height: 60%;
-  background-color: pink;
  }
  .right-image{
   width: 100%;
@@ -277,14 +324,92 @@ lis:hover::after {
 }
  
 .highlight {
-  background-color: red;
 }
 
-.lists-reservation{
+.lunch-course{
+  width: 100%;
+  height: 1000px;
+  background-color: rgba(182, 227, 212, 0.144) ;
+  display: flex;
+}
+
+.lunch-blue-text{
+  font-size: 50px;
+  color:dodgerblue;  
+}
+
+.lunch-right-course{
+	width: 50%;
+	height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.access-text{
   font-size: 45px;
+}
+
+.access-box-text{
+  color: black;
+  font-size: 50px;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  font-weight: bold;
+  border: solid 5px black;
+  text-align: center; /* テキストを中央寄せ */
+  cursor: pointer;
+  width: fit-content; /* 追加 */
+  height: fit-content; /* 追加 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+ }
+
+ .access-box-text{
+  color: black;
+  font-size: 50px;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  font-weight: bold;
+  border: solid 5px black;
+  text-align: center; /* テキストを中央寄せ */
+  cursor: pointer;
+  width: fit-content; /* 追加 */
+  height: fit-content; /* 追加 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+ }
+
+.parking-box-text{
+  color: black;
+  font-size: 50px;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  font-weight: bold;
+  border: solid 5px black;
+  text-align: center; /* テキストを中央寄せ */
+  cursor: pointer;
+  width: fit-content; /* 追加 */
+  height: fit-content; /* 追加 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+ }
+
+
+.lists-reservation{
   color: brown;
   font-weight: bold;
   font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;  
+}
+
+.reservation-text{
+  font-size: 50px;
 }
 
 
@@ -321,8 +446,6 @@ lis:hover::after {
 .facebook-media{
 
 }
-
-
 
 /* maps.html.erb css */
 
@@ -423,9 +546,6 @@ lis:hover::after {
   height: 100px;  
 }
 
-
-
-
 .map-text{
   font-size: 40px;
   font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
@@ -434,13 +554,6 @@ lis:hover::after {
 .map-lists{
   font-size: 30px;
 }
-
-
-
-
-
-
-
 
 
 .box-text {
