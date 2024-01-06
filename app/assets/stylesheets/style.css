@@ -175,19 +175,35 @@ lis:hover::after {
   font-weight: bold;
 }
 
+.long-course{
+  width: 100%;
+  height: 1000px;
+  background-color: rgba(182, 227, 212, 0.144) ;
+  display: flex;
+  font-weight: bold;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;  
+  color: brown;
+}
+
+.long-coursetext{
+	width: 50%;
+	height: 1000px;
+}
+
+
 .course{
   width: 100%;
   height: 800px;
   background-color: rgba(182, 227, 212, 0.144) ;
   display: flex;
+  font-weight: bold;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif; 
+  color: brown; 
 }
 
 .coursetext{
 	width: 50%;
 	height: 800px;
-  color: brown;
-  font-weight: bold;
-  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;  
 }
 
 
