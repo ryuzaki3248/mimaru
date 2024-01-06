@@ -207,6 +207,10 @@ lis:hover::after {
 }
 
 
+
+
+
+
 .free-drinks-blue-text{
   color: dodgerblue;
   font-size: 45px;
@@ -254,12 +258,11 @@ lis:hover::after {
 
 
 .list{
-  font-size: 40px;
+
 }
 
 
 .lists{
-  line-height: 230%;
 }
 
 .list_featured{
@@ -347,6 +350,9 @@ font-size: 45px;
   height: 1000px;
   background-color: rgba(182, 227, 212, 0.144) ;
   display: flex;
+  font-weight: bold;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif; 
+  color: brown; 
 }
 
 .lunch-blue-text{
