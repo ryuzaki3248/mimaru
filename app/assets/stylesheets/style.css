@@ -43,27 +43,35 @@ justify-content: flex-end;
 
 }
 
-li {
-  font-size: 25px;
+.header-title {
+  font-size: 40px;
   font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
   margin-left: 20px; /* 要素間のスペースを設定 */
   position: relative;
 }
 
+.header-title {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: black; /* リンクの色を設定 */
 
-li::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 2px;
-  background-color: black;
-  transition: width 0.3s ease;
-}
+  /* 下線のスタイルを定義 */
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px; /* 下線の高さを設定 */
+    background-color: black; /* 下線の色を設定 */
+    transition: width 0.3s ease; /* アニメーション効果を設定 */
+  }
 
-li:hover::after {
-  width: 100%;
+  /* ホバー時のスタイル変更 */
+  &:hover:before {
+    width: 100%; /* 下線の横幅を100%に広げる */
+  }
 }
 
 
@@ -392,7 +400,7 @@ font-size: 45px;
 
  .access-box-text{
   color: black;
-  font-size: 50px;
+  font-size: 30px;
   padding: 0.5em 1em;
   margin: 2em 0;
   font-weight: bold;
@@ -409,7 +417,7 @@ font-size: 45px;
 
 .parking-box-text{
   color: black;
-  font-size: 50px;
+  font-size: 30px;
   padding: 0.5em 1em;
   margin: 2em 0;
   font-weight: bold;
