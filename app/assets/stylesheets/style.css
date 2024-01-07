@@ -3,7 +3,6 @@ body {
 }
 
 .toppage{
-  height: 13000px;
   margin-top: 10px;
   margin-bottom: 20px;
   margin-left: 30px;
@@ -107,6 +106,12 @@ lis:hover::after {
   font-size  : 95px;
   font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
 }
+
+.each-title{
+  font-size: 50px;
+}
+
+
 
 
 .right-menu{
@@ -483,7 +488,6 @@ font-size: 45px;
 /* maps.html.erb css */
 
 .map-toppage{
-  height: 3000px;
   margin-top: 10px;
   margin-bottom: 20px;
   margin-left: 30px;
@@ -554,7 +558,7 @@ font-size: 45px;
 }
 
 .box-text {
-  font-size: 20px;
+  font-size: 40px;
   padding: 0.5em 1em;
   margin: 2em 0;
   font-weight: bold;
