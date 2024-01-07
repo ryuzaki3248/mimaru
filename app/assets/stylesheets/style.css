@@ -37,13 +37,13 @@ nav{
   
 }
 
-uls{
+ul{
 display: flex;
 justify-content: flex-end;
 
 }
 
-lis {
+li {
   font-size: 25px;
   font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
   margin-left: 20px; /* 要素間のスペースを設定 */
@@ -51,7 +51,7 @@ lis {
 }
 
 
-lis::after {
+li::after {
   content: '';
   position: absolute;
   left: 0;
@@ -62,7 +62,7 @@ lis::after {
   transition: width 0.3s ease;
 }
 
-lis:hover::after {
+li:hover::after {
   width: 100%;
 }
 
@@ -388,22 +388,7 @@ font-size: 45px;
   font-size: 45px;
 }
 
-.access-box-text{
-  color: black;
-  font-size: 50px;
-  padding: 0.5em 1em;
-  margin: 2em 0;
-  font-weight: bold;
-  border: solid 5px black;
-  text-align: center; /* テキストを中央寄せ */
-  cursor: pointer;
-  width: fit-content; /* 追加 */
-  height: fit-content; /* 追加 */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
- }
+
 
  .access-box-text{
   color: black;
