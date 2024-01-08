@@ -441,6 +441,13 @@ ul {
 
 /* maps.html.erb css */
 
+nav-map {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .map-toppage {
   margin-top: 10px;
   margin-bottom: 20px;
