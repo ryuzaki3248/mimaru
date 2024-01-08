@@ -776,11 +776,12 @@ ul {
     margin-top: 10px;
   }
 
-  nav {
+  nav-map {
     width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    display: none; /* スマホ表示時に非表示にする */
   }
 
   ul {
@@ -829,7 +830,7 @@ ul {
 
   .map-title h1 {
     font-weight: 300;
-    font-size: 60px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -888,7 +889,7 @@ ul {
   }
 
   .box-text {
-    font-size: 40px;
+    font-size: 20px;
     padding: 0.5em 1em;
     margin: 2em 0;
     font-weight: bold;
@@ -915,13 +916,13 @@ ul {
   }
 
   .map-text {
-    font-size: 40px;
+    font-size: 20px;
     font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3",
       "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
   }
 
   .map-lists {
-    font-size: 30px;
+    font-size: 15px;
   }
 
   .box-text {
@@ -934,7 +935,7 @@ ul {
   }
 
   .top-link {
-    font-size: 30px; /* 適切なサイズに調整してください */
+    font-size: 15px; /* 適切なサイズに調整してください */
     /* 他のスタイルプロパティを追加できます */
   }
 }
