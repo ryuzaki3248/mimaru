@@ -781,6 +781,7 @@ ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    display: none; /* スマホ表示時に非表示にする */
   }
 
   ul {
