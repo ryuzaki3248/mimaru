@@ -441,13 +441,6 @@ ul {
 
 /* maps.html.erb css */
 
-nav-map {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
 .map-toppage {
   margin-top: 10px;
   margin-bottom: 20px;
@@ -494,6 +487,7 @@ nav-map {
   margin-left: 30px;
   margin-right: 30px;
 }
+
 .black-border::after {
   position: absolute;
   top: -0.85em;
@@ -603,38 +597,6 @@ nav-map {
   ul {
     display: flex;
     justify-content: flex-end;
-  }
-
-  .header-title {
-    font-size: 20px;
-    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3",
-      "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-    margin-left: 20px; /* 要素間のスペースを設定 */
-    position: relative;
-  }
-
-  .header-title {
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-    color: black; /* リンクの色を設定 */
-
-    /* 下線のスタイルを定義 */
-    &:before {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 0;
-      height: 2px; /* 下線の高さを設定 */
-      background-color: black; /* 下線の色を設定 */
-      transition: width 0.3s ease; /* アニメーション効果を設定 */
-    }
-
-    /* ホバー時のスタイル変更 */
-    &:hover:before {
-      width: 100%; /* 下線の横幅を100%に広げる */
-    }
   }
 
   .map-toppage {
@@ -781,51 +743,6 @@ nav-map {
     width: 120px;
     margin-left: 10px;
     margin-top: 10px;
-  }
-
-  nav-map {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    display: none; /* スマホ表示時に非表示にする */
-  }
-
-  ul {
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .header-title {
-    font-size: 11px;
-    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3",
-      "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-    margin-left: 20px; /* 要素間のスペースを設定 */
-    position: relative;
-  }
-
-  .header-title {
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-    color: black; /* リンクの色を設定 */
-
-    /* 下線のスタイルを定義 */
-    &:before {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 0;
-      height: 2px; /* 下線の高さを設定 */
-      background-color: black; /* 下線の色を設定 */
-      transition: width 0.3s ease; /* アニメーション効果を設定 */
-    }
-
-    /* ホバー時のスタイル変更 */
-    &:hover:before {
-      width: 100%; /* 下線の横幅を100%に広げる */
-    }
   }
 
   .map-toppage {
