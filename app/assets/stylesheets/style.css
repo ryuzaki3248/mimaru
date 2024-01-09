@@ -1010,12 +1010,20 @@ iframe {
 
   .instagram-parent-element {
     width: 100px;
-    height: 150px;
+    height: 350px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
   }
 
   .instagram-media {
     width: 70%; /* 任意の幅に調整 */
     max-width: 150px; /* 最大幅を指定 */
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 320px !important;
+    max-width: 320px !important;
+    min-width: initial !important;
   }
 
   .instagram-media img {
