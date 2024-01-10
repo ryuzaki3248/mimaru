@@ -446,6 +446,16 @@ ul {
 }
 
 /*Facebook*/
+
+.instagram-facebook-only {
+  width: 100%;
+  height: 900px;
+  background-color: rgba(182, 227, 212, 0.144);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 iframe {
   width: 150%; /* 任意の幅に調整 */
   max-width: 600px; /* 最大幅を指定 */
