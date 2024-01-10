@@ -1231,7 +1231,6 @@ iframe {
   nav {
     width: 100%;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
   }
 
@@ -1496,15 +1495,15 @@ iframe {
   }
 
   .inner {
-    height: 160px;
+    height: 120px;
     width: 70%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-item2: center;
   }
 
   .one-dish-name {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .left-content {
@@ -1661,7 +1660,6 @@ iframe {
 
   iframe[src*="facebook.com"] {
     width: 170px !important;
-    height: 215px !important;
   }
 
   /* maps.html.erb css */
