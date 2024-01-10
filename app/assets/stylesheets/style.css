@@ -1232,7 +1232,7 @@ iframe {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-start !important;
   }
 
   ul {
@@ -1336,7 +1336,7 @@ iframe {
   }
 
   .second-left {
-    width: 40%;
+    width: 100%;
   }
 
   .second-left_image {
