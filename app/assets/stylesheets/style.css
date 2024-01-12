@@ -1711,6 +1711,16 @@ iframe {
     display: flex;
   }
 
+  nav ul {
+    text-align: left;
+    /* 他に必要なスタイルを追加 */
+  }
+
+  nav ul a {
+    display: inline-block;
+    /* 必要に応じて追加のスタイルを設定 */
+  }
+
   .header-title {
     font-size: 5px;
     font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3",
@@ -2136,23 +2146,6 @@ iframe {
 
   /* maps.html.erb css */
   /* スマホ表示時 */
-
-  body {
-    padding-top: 140px; /* ヘッダーの高さに合わせて調整 */
-  }
-
-  header {
-    background-color: #ffffff;
-    height: 80px;
-    width: 100%;
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9999;
-    /* その他のスタイル */
-  }
 
   .toplogo_image {
     height: 60px;
