@@ -1807,3 +1807,8 @@ iframe {
     /* 他のスタイルプロパティを追加できます */
   }
 }
+
+@media (max-width: 2800px) {
+  /* index.html.erb css */
+  /* 1025px~2800px表示時 */
+}
