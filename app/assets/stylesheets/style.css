@@ -1709,6 +1709,8 @@ iframe {
 
   ul {
     display: flex;
+    padding: 0; /* リストのデフォルトのパディングを無効化 */
+    list-style: none; /* リストのデフォルトのマーカーを非表示に */
   }
 
   nav ul {
@@ -1718,20 +1720,19 @@ iframe {
 
   nav ul a {
     display: inline-block;
+    margin-right: 10px; /* リンク間の右マージンを追加 */
     /* 必要に応じて追加のスタイルを設定 */
   }
 
   .header-title {
-    font-size: 5px;
+    font-size: 16px; /* 適切なフォントサイズを指定 */
     font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3",
       "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-    /* 要素間のスペースを設定 */
     position: relative;
   }
 
-  .header-title {
+  .header-title a {
     position: relative;
-    display: inline-block;
     text-decoration: none;
     color: black; /* リンクの色を設定 */
 
