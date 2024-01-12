@@ -1855,7 +1855,7 @@ iframe {
   }
 
   .header-title {
-    font-size: 40px;
+    font-size: 30px;
     font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3",
       "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
     margin-left: 20px; /* 要素間のスペースを設定 */
@@ -1925,7 +1925,7 @@ iframe {
   }
 
   .each-title {
-    font-size: 50px;
+    font-size: 36px;
   }
 
   .right-menu {
@@ -1939,7 +1939,7 @@ iframe {
   }
 
   .border {
-    height: 90px;
+    height: 60px;
     background-color: bisque;
     color: brown;
   }
@@ -1961,7 +1961,7 @@ iframe {
   .second-text {
     width: 100%;
     height: 800px;
-    font-size: 40px;
+    font-size: 23px;
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -1976,13 +1976,13 @@ iframe {
   }
 
   .border-title {
-    height: 150px;
+    height: 120px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     line-height: 450%;
-    font-size: 100px;
+    font-size: 80px;
     font-weight: bold;
     color: brown;
     font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3",
@@ -1990,7 +1990,7 @@ iframe {
   }
 
   .second_title {
-    font-size: 35px;
+    font-size: 30px;
     color: brown;
     font-weight: bold;
   }
@@ -2013,7 +2013,7 @@ iframe {
 
   .course {
     width: 100%;
-    height: 800px;
+    height: 700px;
     background-color: rgba(182, 227, 212, 0.144);
     display: flex;
     font-weight: bold;
@@ -2024,49 +2024,53 @@ iframe {
 
   .coursetext {
     width: 50%;
-    height: 800px;
+    height: 700px;
   }
 
   .free-drinks-blue-text {
     color: dodgerblue;
-    font-size: 45px;
+    font-size: 24px;
     font-weight: bold;
   }
 
   .free-drinks-text {
-    font-size: 40px;
+    font-size: 23px;
   }
 
   .cooking-only-blue-text {
     color: dodgerblue;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
   }
 
   .cooking-only-text {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bold;
+  }
+
+  .italian-title {
+    font-size: 27px;
   }
 
   .italian-blue-text {
     color: dodgerblue;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
   }
 
   .italian-text {
-    font-size: 45px;
+    font-size: 38px;
     font-weight: bold;
   }
 
   .strongest-blue-text {
     color: dodgerblue;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
   }
 
   .strongest-text {
-    font-size: 45px;
+    font-size: 38px;
     font-weight: bold;
   }
 
@@ -2083,7 +2087,7 @@ iframe {
 
   .rightcourse {
     width: 50%;
-    height: 800px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2098,7 +2102,7 @@ iframe {
   }
 
   .one_dish {
-    height: 650px;
+    height: 580px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -2107,7 +2111,7 @@ iframe {
   }
 
   .inner {
-    height: 700px;
+    height: 500px;
     width: 70%;
     display: flex;
     justify-content: space-around;
@@ -2115,7 +2119,7 @@ iframe {
   }
 
   .one-dish-name {
-    font-size: 45px;
+    font-size: 30px;
   }
 
   .left-content {
@@ -2152,7 +2156,7 @@ iframe {
 
   .lunch-course {
     width: 100%;
-    height: 1000px;
+    height: 800px;
     background-color: rgba(182, 227, 212, 0.144);
     display: flex;
     font-weight: bold;
@@ -2162,26 +2166,26 @@ iframe {
   }
 
   .lunch-blue-text {
-    font-size: 50px;
+    font-size: 24px;
     color: dodgerblue;
   }
 
   .lunch-coursetext {
     width: 50%;
     height: 800px;
-    font-size: 40px;
+    font-size: 22px;
   }
 
   .lunch-right-course {
     width: 50%;
-    height: 1000px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .access-text {
-    font-size: 45px;
+    font-size: 30px;
   }
 
   .access-box-text {
@@ -2228,7 +2232,7 @@ iframe {
   }
 
   .reservation-text {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .instagram-facebook {
