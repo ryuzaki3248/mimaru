@@ -1670,7 +1670,7 @@ iframe {
 /* スマホ表示時 */
 @media (max-width: 599px) {
   body {
-    padding-top: 80px !important; /* ヘッダーの高さに合わせて調整 */
+    padding-top: 60px !important; /* ヘッダーの高さに合わせて調整 */
   }
 
   .toppage {
@@ -1682,7 +1682,7 @@ iframe {
 
   header {
     background-color: #ffffff;
-    height: 80px;
+    height: 60px;
     width: 100%;
     display: flex;
     position: fixed;
@@ -1694,8 +1694,8 @@ iframe {
   }
 
   .toplogo_image {
-    height: 70%;
-    width: 140px;
+    height: 50%;
+    width: 90px;
     margin-left: 10px;
     margin-top: 10px;
   }
@@ -1720,12 +1720,12 @@ iframe {
 
   nav ul a {
     display: inline-block;
-    margin-right: 10px; /* リンク間の右マージンを追加 */
+    margin-right: 0px; /* リンク間の右マージンを追加 */
     /* 必要に応じて追加のスタイルを設定 */
   }
 
   .header-title {
-    font-size: 16px; /* 適切なフォントサイズを指定 */
+    font-size: 5px; /* 適切なフォントサイズを指定 */
     font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3",
       "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
     position: relative;
@@ -2147,13 +2147,6 @@ iframe {
 
   /* maps.html.erb css */
   /* スマホ表示時 */
-
-  .toplogo_image {
-    height: 60px;
-    width: 120px;
-    margin-left: 10px;
-    margin-top: 10px;
-  }
 
   .map-toppage {
     margin-top: 10px;
