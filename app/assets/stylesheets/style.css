@@ -1682,7 +1682,7 @@ iframe {
 
   header {
     background-color: #ffffff;
-    height: 80px;
+    height: 70px;
     width: 100%;
     display: flex;
     position: fixed;
@@ -1694,10 +1694,10 @@ iframe {
   }
 
   .toplogo_image {
-    height: 50%;
+    height: 70%;
     width: 90px;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 12px;
   }
 
   nav {
